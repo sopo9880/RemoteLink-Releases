@@ -4,13 +4,17 @@ Windows PC에서 RDP·SSH와 허용한 TCP 서비스를 연결하는 RemoteLink 
 
 ## 다운로드
 
-현재 공개 버전은 **v0.2.0**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
+현재 공개 버전은 **v0.2.1**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
 
 [Windows 설치 파일 다운로드](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/RemoteLink-Setup-Windows-x64.exe) · [SHA256 체크섬](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/SHA256SUMS.txt) · [버전 목록](https://github.com/sopo9880/RemoteLink-Releases/releases)
 
+## v0.2.1 변경
+
+실행 중인 기존 Agent 업데이트, 같은 버전 복구 설치, 누락된 프로그램 파일 복원을 지원합니다. Agent를 중복 실행하면 기존 창을 표시합니다.
+
 ## 설치와 연결
 
-- Windows 10·11 x64를 지원합니다. 연결할 두 PC에 설치하세요. 기존 설치 위에 설치하면 설정과 기기 키를 유지합니다.
+- Windows 10·11 x64를 지원합니다. 연결할 두 PC에 설치하세요. 기존 설치 위에 설치하면 업데이트로 진행하고, 같은 버전을 다시 설치하면 복구로 진행합니다. 실행 중인 Agent는 종료되며 설정과 기기 키는 유지합니다. 설치 후 원격 연결을 다시 요청하세요.
 - 설정에서 운영자가 안내한 제어 서버의 HTTPS 주소와 기기 이름을 입력하세요.
 - 세션 기본 시간은 **1시간**입니다. 계속 연결하려면 **설정 → 세션 기본 시간 → 무제한**으로 변경하세요. 변경은 새 세션부터 적용됩니다.
 - 접속 대상 PC에서만 RDP/SSH 또는 사용자 지정 TCP 공유를 허용하세요. 해당 서비스는 별도로 활성화되어 있어야 합니다.
