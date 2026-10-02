@@ -4,13 +4,13 @@ Windows PC에서 RDP·SSH와 허용한 TCP 서비스를 연결하는 RemoteLink 
 
 ## 다운로드
 
-현재 공개 버전은 **v0.2.1**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
+현재 공개 버전은 **v0.2.2**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
 
 [Windows 설치 파일 다운로드](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/RemoteLink-Setup-Windows-x64.exe) · [SHA256 체크섬](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/SHA256SUMS.txt) · [버전 목록](https://github.com/sopo9880/RemoteLink-Releases/releases)
 
-## v0.2.1 변경
+## v0.2.2 변경
 
-실행 중인 기존 Agent 업데이트, 같은 버전 복구 설치, 누락된 프로그램 파일 복원을 지원합니다. Agent를 중복 실행하면 기존 창을 표시합니다.
+기존 실행 파일을 교체할 때 발생할 수 있는 파일 충돌을 보완했습니다. 설치 전에 해당 경로의 Agent 종료를 기다리고 기존 실행 파일을 백업 이름으로 옮긴 뒤 교체합니다. 잠금이 계속되면 재시도를 안내하며 설정과 기기 키는 유지합니다. 실행 중인 Agent 업데이트, 같은 버전 복구, 중복 실행 시 기존 창 표시도 지원합니다.
 
 ## 설치와 연결
 
