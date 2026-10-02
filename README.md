@@ -4,7 +4,9 @@ Windows PC에서 RDP·SSH와 허용한 TCP 서비스를 연결하는 RemoteLink 
 
 ## 다운로드
 
-[공개 Releases](https://github.com/sopo9880/RemoteLink-Releases/releases)에서 `RemoteLink-Setup-Windows-x64.exe`와 `SHA256SUMS.txt`를 받을 수 있습니다. 현재 첫 공개 Release를 준비 중입니다. Release가 공개되면 GitHub 로그인 없이 다운로드할 수 있습니다.
+[공개 Releases](https://github.com/sopo9880/RemoteLink-Releases/releases)에서 `RemoteLink-Setup-Windows-x64.exe`와 `SHA256SUMS.txt`를 받을 수 있습니다. 첫 공개 버전은 **v0.1.0**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
+
+[Windows 설치 파일 다운로드](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/RemoteLink-Setup-Windows-x64.exe) · [SHA256 체크섬](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/SHA256SUMS.txt)
 
 ## 설치와 연결
 
