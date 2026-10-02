@@ -4,13 +4,15 @@ Windows PC에서 RDP·SSH와 허용한 TCP 서비스를 연결하는 RemoteLink 
 
 ## 다운로드
 
-현재 공개 버전은 **v0.2.2**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
+현재 공개 버전은 **v0.3.0**입니다. GitHub 로그인 없이 다운로드할 수 있습니다.
 
 [Windows 설치 파일 다운로드](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/RemoteLink-Setup-Windows-x64.exe) · [SHA256 체크섬](https://github.com/sopo9880/RemoteLink-Releases/releases/latest/download/SHA256SUMS.txt) · [버전 목록](https://github.com/sopo9880/RemoteLink-Releases/releases)
 
-## v0.2.2 변경
+## v0.3.0 변경
 
-기존 실행 파일을 교체할 때 발생할 수 있는 파일 충돌을 보완했습니다. 설치 전에 해당 경로의 Agent 종료를 기다리고 기존 실행 파일을 백업 이름으로 옮긴 뒤 교체합니다. 잠금이 계속되면 재시도를 안내하며 설정과 기기 키는 유지합니다. 실행 중인 Agent 업데이트, 같은 버전 복구, 중복 실행 시 기존 창 표시도 지원합니다.
+Agent에 기본 제어 서버 주소가 들어 있습니다: `https://rural-cheslie-veryverysecrtet-a468507a.koyeb.app`. 기존 빈 주소 설정도 아직 등록하지 않은 경우 기본값으로 채웁니다. 서버 주소를 비우더라도 기기 이름·세션 시간·공유 서비스를 오프라인에서 저장할 수 있습니다.
+
+제어 서버는 기존 Koyeb 봇 웹 주소에서 제공하고 기존 MongoDB에 기기·그룹을 보관합니다. 브라우저 등록은 서버의 기존 Discord OAuth 콜백 설정을 재사용합니다.
 
 ## 설치와 연결
 
@@ -25,4 +27,4 @@ Windows PC에서 RDP·SSH와 허용한 TCP 서비스를 연결하는 RemoteLink 
 
 설치 파일에는 봇 토큰이나 제어 서버 비밀키를 포함하지 않습니다. 설치 파일은 코드 서명되지 않아 Windows 실행 경고가 표시될 수 있습니다. Windows Home은 기본 RDP 호스트를 지원하지 않습니다.
 
-제어 서버는 별도로 준비해야 하며 v0.2 기능에는 서버 업데이트가 필요합니다. 무제한은 앱의 만료 제한을 없애며 네트워크 단절·Agent 종료·제어 서버 재시작 시 연결은 종료됩니다.
+기본 제어 서버는 기존 Koyeb 봇과 함께 운영됩니다. [서버 상태](https://rural-cheslie-veryverysecrtet-a468507a.koyeb.app/remote/health)에서 준비 상태를 확인할 수 있습니다. 다른 서버를 운영하려면 해당 서버를 별도로 준비해야 합니다. 무제한은 앱의 만료 제한을 없애며 네트워크 단절·Agent 종료·제어 서버 재시작 시 연결은 종료됩니다.
